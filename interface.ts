@@ -10,7 +10,7 @@ interface IUser {
     eta:number,
     stampa():void
 }
-
+ 
 const persona:IUser = {
     nome:'Giuseppe',
     cognome: 'Cifarelli',

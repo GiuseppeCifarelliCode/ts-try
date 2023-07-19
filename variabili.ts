@@ -36,7 +36,7 @@ console.log(somma(2, 3))
 function sottrazione(num1:number, num2:number):number{
     return num1 - num2
 }
-// Questa e' una funzione in cui anche il risultato e' tipizzato 
+// Questa e' una funzione in cui anche il risultato e' tipizzato
 
 // Sostanzialmente TS implementa nuove funzionalita' a JS, mantenendo la stessa struttura
 // Quindi tutto cio' presente in JS e' presente anche in TS

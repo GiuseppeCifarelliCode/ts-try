@@ -14,7 +14,7 @@ class Persona {
     nome?:string // Il ? durante la tipizzazione aggiunge undefined al tipo della variabile, bloccando gli errori dovuti alla mancata inizializzazione
     private cognome!:string // Il ! ,invece, avvisa TS che l' inizializzazione sara' effettuata in seguito, bloccando gli errori
     eta!:number // Sono due modi per bloccare gli errori di TS durante la tipizzazione degli elementi delle classi
-    readonly id!:number
+    readonly id:number // = 3123213 (E' possibile inizializzare un elemento direttamente)
     protected residenza:string
 
     constructor(nome:string, cognome:string, eta:number, id:number, residenza:string) {
