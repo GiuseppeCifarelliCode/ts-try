@@ -13,6 +13,7 @@ class Veicoli {
         return this.vel = 0;
     }
 }
+// const auto = new Veicoli --> Non e' possibile creare un'istanza da una abstract class
 class Auto extends Veicoli {
     constructor(_velMax, _nRuote, tipo) {
         super(_velMax, _nRuote, tipo);
@@ -27,7 +28,6 @@ class Auto extends Veicoli {
         return this.vel = this.vel - 3;
     }
 }
-
 class Bici extends Veicoli {
     constructor(_velMax, _nRuote, tipo) {
         super(_velMax, _nRuote, tipo);
@@ -42,6 +42,5 @@ class Bici extends Veicoli {
         return this.vel = this.vel - 1;
     }
 }
-
 const BMW = new Auto(260, 4, 'Auto');
-const bici = new Bici(40, 2, 'bici')
+const bici = new Bici(40, 2, 'bici');
